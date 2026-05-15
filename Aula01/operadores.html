@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operadores Javascript</title>
+</head>
+
+<body>
+    <h1>Operadores Javascript</h1>
+
+    <script>
+        //Operadores ariméticos
+
+        console.log(10 + 3) //adição -> +
+        console.log(10 - 3)// subtração -> - 
+        console.log(10 * 3)// Multiplicação -> *
+        console.log(10 / 3)// Divisão -> /
+        console.log(10 % 3)// Resto da divisão-> %
+        console.log(2 ** 3)// Pontenciação-> **
+
+        //operadores de comparação - sempre retornam true ou false
+        //(booleanos)
+
+        console.log(5 > 3)
+        console.log(5 < 3)
+        console.log(5 >= 5)
+        console.log(5 == 5)
+        console.log(5 !== 3)
+         
+        /// atividade 1 
+        console.log ((8 + 6.5 + 9) / 3)
+
+        ///atividade 2
+
+        let salario = 3500;
+        let bonus = 500;
+        let impostoPercentual = 12; // 12%
+
+        let salarioTotal = salario + bonus;
+        let valorImposto = salarioTotal * impostoPercentual / 100;
+        let salarioLiquido = salarioTotal - valorImposto;
+        console.log (salarioLiquido >3000);
+        console.log (valorImposto == 480);
+        console.log (salarioLiquido != salarioTotal);
+
+        
+   
+        
+
+    </script>
+</body>
+</html>

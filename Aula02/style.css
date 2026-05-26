@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    font-family: Arial, sans-serif;
+}
+
+.caixa{
+    background-color: white;
+    border: 5px solid white;
+    padding: 40px 80px;
+    border-radius: 10px;
+}
+
+h1{
+    color: blue;
+    font-size: 80px;
+    text-transform: lowercase;
+    transition: 0.5s;
+}

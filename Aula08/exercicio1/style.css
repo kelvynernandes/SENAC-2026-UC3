@@ -1,0 +1,26 @@
+#meuElemento {
+    width: 200px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+    transition: 0.3s;
+}
+
+/* Estado inicial */
+.estado-inicial {
+    background-color: gray;
+}
+
+/* Estado de perigo */
+.estado-vermelho {
+    background-color: #ff4d4d;
+}
+
+/* Estado liberado */
+.estado-verde {
+    background-color: #4CAF50;
+}

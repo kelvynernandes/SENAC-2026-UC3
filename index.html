@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Gerenciamento - Cardápio, Pedidos e Clientes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🍕 Sistema de Gerenciamento de Cardápio</h1>
+            <p>Cardápio, Pedidos e Clientes</p>
+        </header>
+    
+    <div class=" dashboard">
+            <div class="section">
+                <h2>Cardápio</h2>
+                <div class=" cards-container" id="cardapiocontainer"></div>
+
+
+            </div>
+        <div class="section">
+                <h2>Últimos Pedidos</h2>
+                <div class="table-container">
+                    <table id="pedidosTable">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Clientes</th>
+                                <th>Itens</th>
+                                <th>Total</th>
+                                <th>Status</th>
+                        </tr>
+                        </thead>
+                        <tbody id="pedidosBody"></tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="section"></div>
+                <h1>Clientes Cadastrados</h1>
+                <ul class="clientes-list" id="clienteslist"></ul>
+            </div>
+        </div>
+
+        <div class="stats" id="statscontainer"></div>
+    
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
